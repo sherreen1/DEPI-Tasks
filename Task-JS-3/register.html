@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+     
+    <div class="container mt-10 pt-5">
+        <div class="row">
+            <div class="md:col-6">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75" alt="Image">
+            </div>
+            <div class="md:col-6">
+                <h2>Create Account</h2>
+                <h4 class="mt-4 mb-6 fg-secondary">Go ahesd and sign up, let everyone<br>know here awesome you're!</h4>
+                <h5 id="result"></h5>
+                <form onsubmit="return validateData()" action="success.html" method="get"> 
+                    <input id="user" class="forme-control p-4 mb-6 rounded-2 d-block w-100" type="text" name="user" placeholder="Username">
+                    <input id="email" class="forme-control p-4 mb-6 rounded-2 d-block w-100" type="text" name="email" placeholder="Email">   
+                    <input id="pass" class="forme-control p-4 mb-6 rounded-2 d-block w-100" type="password" name="pass" placeholder="Password"> 
+                    <input id="confirm" class="forme-control p-4 mb-6 rounded-2 d-block w-100" type="password" name="confirm" placeholder="Confirm Password"> 
+                    <input type="submit" value="Crate New Account" class="btn-solid theme-primary d-block w-100">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
