@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Henna App Home Page</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar 1: Top Bar -->
+    <div class="navbar-side">
+      <div class="container-fluid px-4">
+        <div class="row align-items-center">
+          <div class="col-md-3 col-6">
+            <div class="icon-navbar d-flex align-items-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-7 d-none d-md-flex align-items-center text-navbar">
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              2464 Royal Ln. Mesa, New Jersey 45463
+            </p>
+
+            <p>
+              <i class="fas fa-envelope"></i>
+              unreal@outlook.com
+            </p>
+          </div>
+
+          <div class="col-md-2 col-6 text-end">
+            <div class="dropdown language-menu">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="languageDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </button>
+
+              <div
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="languageDropdown"
+              >
+                <a class="dropdown-item" href="#">Arabic</a>
+                <a class="dropdown-item" href="#">English</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar 2: Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar border-bottom">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Henna Logo-02 2.png" alt="Henna Logo" />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <a class="nav-link navbar-link-hena" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="wedding-services-singlepage.html">
+              Wedding services
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="providers.html">Providers</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <form
+          class="form-inline form-navbar d-flex flex-nowrap"
+          action="#"
+          role="search"
+        >
+          <div class="search-box d-flex align-items-center">
+            <img src="img/Icon-search.png" alt="Search" />
+            <input class="form-control" type="search" placeholder="Search" />
+          </div>
+
+          <button class="btn button-navbar" type="button">Download App</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Navbar 3: Page Title & Account -->
+    <div
+      class="bottom-navbar d-flex align-items-center justify-content-between"
+    >
+      <div class="bottom-title">Home</div>
+
+      <div class="account-buttons d-flex align-items-center">
+        <a href="#" class="create-account">Create Account</a>
+        <a href="#" class="login-button">Login</a>
+      </div>
+    </div>
+    <!-- End Navbar 3 -->
+
+    <!-- sarte header section -->
+    <header class="header-section">
+      <div class="container-fluid px-4">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>WELCOME</h1>
+            <p>
+              maxime recusandae nobismaxime recusandae<br />
+              nobismaxime recusandae nobismaxime recusandae nobis
+            </p>
+            <a href="index.html"><button class="btn">Get Started</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start Photography Slider -->
+    <div id="portfolio" class="our-portfolio section header-main-section">
+      <div class="container-fluid px-5">
+        <div class="row portfolio-row">
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="img/img-cate.png" alt="Photography" />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img
+                    src="img/img-cate-1.jpg"
+                    alt="Photography"
+                  />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="img/img-cate-1.png" alt="Photography" />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="img/img-cate-4.png" alt="Photography" />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img
+                    src="img/img-cate-4.jpg"
+                    alt="Photography"
+                  />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="img/img-cate-5.jpg" alt="Photography" />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col portfolio-col">
+            <a href="#">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="img/img-cate-6.jpg" alt="Photography" />
+                </div>
+                <div class="down-content">
+                  <h4>photography</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Photography Slider -->
+
+    <!-- start Product section -->
+    <section class="providers-section" id="product">
+      <div class="container-fluid px-4 px-md-5">
+        <div
+          class="d-flex justify-content-between align-items-center mb-5 mt-4"
+        >
+          <h2 class="providers-title">Our Providers</h2>
+          <a href="Products.html" class="see-all-link">See All Providers</a>
+        </div>
+
+        <div class="providers-slider">
+          <div class="providers-track">
+            <div class="provider-card">
+              <img src="img/LOGO PROVIDER-4.png" alt="Hala Makeup Artist" />
+              <div class="provider-name">
+                <h4>Hala Makeup Artist</h4>
+              </div>
+            </div>
+
+            <div class="provider-card">
+              <img src="img/LOGO PROVIDER-3.png" alt="Beauty Provider" />
+              <div class="provider-name">
+                <h4>Beauty Provider</h4>
+              </div>
+            </div>
+
+            <div class="provider-card">
+              <img src="img/LOGO PROVIDER-2.png" alt="Makeup Artist" />
+              <div class="provider-name">
+                <h4>Makeup Artist</h4>
+              </div>
+            </div>
+
+            <div class="provider-card">
+              <img src="img/LOGO PROVIDER-1.png" alt="Beauty Expert" />
+              <div class="provider-name">
+                <h4>Beauty Expert</h4>
+              </div>
+            </div>
+
+            <div class="provider-card">
+              <img src="img/LOGO PROVIDER-5.png" alt="Hair Stylist" />
+              <div class="provider-name">
+                <h4>Hair Stylist</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product section -->
+
+    <!-- Start Services section -->
+    <section class="services-section" id="services">
+      <div class="container-fluid px-4 px-md-5">
+        <div
+          class="d-flex justify-content-between align-items-center mb-5 mt-4"
+        >
+          <h2 class="services-title">Our Services</h2>
+          <a href="services.html" class="see-all-link">See All Services</a>
+        </div>
+
+        <div class="services-slider">
+          <div class="services-track">
+            <div class="service-card">
+              <a href="#">
+                <img src="img/service-1.png" alt="Photographer" />
+                <div class="service-content">
+                  <h6>Photographer</h6>
+                  <p>Photography</p>
+
+                  <div class="service-rating">
+                    <span class="stars">★★★★☆</span>
+                    <span>(121)</span>
+                  </div>
+
+                  <button class="btn btn-outline-secondary service-btn">
+                    View
+                  </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="service-card">
+              <a href="#">
+                <img src="img/service-2.png" alt="Makeup Artist" />
+                <div class="service-content">
+                  <h6>Makeup Artist</h6>
+                  <p>Makeup</p>
+
+                  <div class="service-rating">
+                    <span class="stars">★★★★★</span>
+                    <span>(150)</span>
+                  </div>
+
+                  <button class="btn btn-outline-secondary service-btn">
+                    View
+                  </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="service-card">
+              <a href="#">
+                <img src="img/service-3.png" alt="Hair Stylist" />
+                <div class="service-content">
+                  <h6>Hair Stylist</h6>
+                  <p>Hair Styling</p>
+
+                  <div class="service-rating">
+                    <span class="stars">★★★☆☆</span>
+                    <span>(86)</span>
+                  </div>
+                  <button class="btn btn-outline-secondary service-btn">
+                    View
+                  </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="service-card">
+              <a href="#">
+                <img src="img/service-4.png" alt="Nail Artist" />
+                <div class="service-content">
+                  <h6>Nail Artist</h6>
+                  <p>Nail Care</p>
+
+                  <div class="service-rating">
+                    <span class="stars">★★★★★</span>
+                    <span>(145)</span>
+                  </div>
+
+                  <button class="btn btn-outline-secondary service-btn">
+                    View
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services section -->
+
+    <!-- start Join section -->
+
+    <section class="join-providers-section">
+      <div class="container-fluid px-4 px-lg-5">
+        <div class="row align-items-center g-5">
+          <!-- Left Content -->
+          <div class="col-lg-5">
+            <div class="join-content">
+              <h2>Join<br />To Our Providers</h2>
+
+              <p>
+                Numquam ut sed autem molestias quo voluptate voluptas. Esse eius
+                dolorum velit molestiae quas voluptas. A aut animi iusto quam.
+                Itaque accusantium nobis nobis doloremque eligendi.
+              </p>
+
+              <a href="services.html" class="join-btn"> Join </a>
+            </div>
+          </div>
+
+          <!-- Right Cards Slider -->
+          <div class="col-lg-7">
+            <div class="swiper providersSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER.png" alt="Makeup Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER.png" alt="Makeup Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER.png" alt="Makeup Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER-1.png" alt="Beauty Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER-1.png" alt="Beauty Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#" class="join-provider-card">
+                    <img src="img/LOGO PROVIDER-1.png" alt="Beauty Artist" />
+                    <div class="provider-caption">
+                      <h5>Hala Makeup Artist</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Join section -->
+
+    <!-- Start Newsletter section -->
+
+    <section class="newsletter-section mb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="newsletter-title">Newsletter</h2>
+
+            <p class="newsletter-description">
+              Be the first one to know about discounts, offers and events weekly
+              in your<br />
+              mailbox. Unsubscribe whenever you like with one click.
+            </p>
+
+            <form class="newsletter-form">
+              <div class="newsletter-input-wrapper">
+                <img
+                  src="img/message.png"
+                  class="newsletter-icon"
+                  alt="Email"
+                />
+
+                <input
+                  type="email"
+                  class="form-control newsletter-input"
+                  placeholder="Enter Your E-Mail"
+                  aria-label="Enter your email"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="btn newsletter-button">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Newsletter section -->
+
+    <!-- Start Download section -->
+
+    <section class="download-section container my-5">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 col-lg-7">
+          <div class="download-content">
+            <h2 class="download-title">
+              Download <br />
+              Henna Mobile App
+            </h2>
+
+            <p class="download-description">
+              Numquam ut sed autem molestias quo voluptate voluptas. Esse eius
+              dolorum velit molestiae quas voluptas.
+            </p>
+
+            <div class="download-buttons d-flex flex-wrap gap-3">
+              <a href="#" class="btn button-download">
+                <i class="fa-solid fa-arrow-down"></i>
+                Download IOS
+              </a>
+
+              <a href="#" class="btn button-download2">
+                <i class="fa-solid fa-arrow-down"></i>
+                Download Android
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Download section -->
+    <!-- Start About section -->
+
+    <section class="about mt-5">
+      <div class="container-fluid px-4 px-md-5">
+        <div class="row">
+          <!-- Section Heading -->
+          <div class="col-12 mb-4">
+            <h2 class="about-title fw-bold">About Henna</h2>
+          </div>
+
+          <!-- Objectives -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="about-section-back">
+              <h4>Objectives</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Discover our main objectives and what we aim to achieve.
+              </p>
+            </div>
+          </div>
+
+          <!-- Visions -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="about-section-back2">
+              <h4>Visions</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our
+                vision is to create a better beauty experience.
+              </p>
+            </div>
+          </div>
+
+          <!-- Missions -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="about-section-back3">
+              <h4>Missions</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. We
+                strive to provide accessible and quality services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End About section -->
+    <!-- Start footer Section -->
+
+    <footer class="footer">
+      <div class="container-fluid px-4 px-lg-5 py-5">
+        <div class="row g-4">
+          <!-- Logo and Contact -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <img
+              src="img/Henna Logo-02 2.png"
+              alt="Henna Logo"
+              class="footer-logo mb-3"
+            />
+
+            <p class="footer-description">
+              We are a lorem ipsum dolor sit amet, consectetur adipiscing<br />
+              elit, sed do eiusmod tempor incididunt ut labore et dolore<br />
+              magna aliqua. Ut exercitation ullamco laboris nisi ut aliquip<br />
+              ex ea commodo consequat.
+            </p>
+
+            <div class="d-flex align-items-center mt-4 footer-contact">
+              <div class="footer-contact-icon me-3">
+                <img src="img/vector-message.png" alt="Email" />
+              </div>
+
+              <div>
+                <span class="contact-title">Contact us</span>
+                <br />
+                <a href="mailto:evedesign@example.com" class="contact-email">
+                  evedesign@example.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-6 col-md-3 col-lg-2 footer-text">
+            <h6>Useful Links</h6>
+            <a href="#">Categories</a>
+            <a href="#">Services</a>
+            <a href="#">Posts</a>
+            <a href="#">Policy</a>
+            <a href="#">Payment Methods</a>
+          </div>
+
+          <!-- Services -->
+          <div class="col-6 col-md-3 col-lg-2 footer-text">
+            <h6>Services</h6>
+            <a href="#">Wedding Services</a>
+            <a href="#">Others</a>
+            <a href="#">Others</a>
+            <a href="#">Others</a>
+            <a href="#">Others</a>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-6 col-md-3 col-lg-2 footer-text">
+            <h6>Social Media</h6>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+            <a href="#">Telegram</a>
+            <a href="#">Others</a>
+          </div>
+
+          <!-- Copyright -->
+          <div class="col-12 text-center mt-4">
+            <div class="footer-divider mb-3"></div>
+            <p class="footer-copyright mb-0">© 2026, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End footer Section -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
